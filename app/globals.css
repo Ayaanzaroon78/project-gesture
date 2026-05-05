@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+body {
+  color: #f8fafc;
+  font-family: var(--font-sans);
+  text-rendering: geometricPrecision;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+canvas,
+video {
+  display: block;
+}
+
+@keyframes handscape-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-4deg);
+  }
+
+  50% {
+    transform: translateY(-14px) rotate(5deg);
+  }
+}
+
+@keyframes handscape-shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+.handscape-float {
+  animation: handscape-float 2s ease-in-out infinite;
+}
+
+.handscape-shimmer {
+  background-size: 200% 100%;
+  animation: handscape-shimmer 4s linear infinite;
+}
+
+.slider-thumb::-webkit-slider-thumb {
+  width: 18px;
+  height: 18px;
+  appearance: none;
+  border-radius: 999px;
+  background: #f8fafc;
+  box-shadow: 0 0 18px rgba(6, 182, 212, 0.65);
+}
+
+.slider-thumb::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border: 0;
+  border-radius: 999px;
+  background: #f8fafc;
+  box-shadow: 0 0 18px rgba(6, 182, 212, 0.65);
+}
