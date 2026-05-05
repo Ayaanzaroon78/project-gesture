@@ -13,17 +13,14 @@
   Move your hands in front of your webcam — every gesture triggers a unique visual effect on the canvas.
 </p>
 
-<p align="center">
-  <a href="https://vercel.com/new/clone?repository-url=https://github.com/Ayaanzaroon78/project-gesture">
-    <img src="https://vercel.com/button" alt="Deploy with Vercel" />
-  </a>
-</p>
 
 ---
 
 ## 📸 Preview
 
-> _Add production screenshots or a GIF here after deploying or running the app locally._
+<img width="1910" height="903" alt="image" src="https://github.com/user-attachments/assets/04596895-9c33-47ca-ab61-28c24fd2f53e" />
+
+
 
 | Gesture | Effect |
 |--------|--------|
